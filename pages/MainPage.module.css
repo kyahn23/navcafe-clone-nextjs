@@ -1,0 +1,267 @@
+.mainData {
+  width: 880px;
+  float: right;
+  min-height: 320px;
+}
+
+.cont_L {
+  width: 50%;
+  margin-top: 20px;
+  padding-right: 10px;
+  float: left;
+}
+
+.cont_R {
+  width: 50%;
+  margin-top: 20px;
+  padding-left: 10px;
+  float: right;
+}
+
+.boardTitleArea {
+  overflow: hidden;
+  padding-bottom: 6px;
+  border-bottom: 1px solid #666;
+}
+
+.boardTitleArea .title {
+  margin: 0;
+  float: left;
+  max-width: 85%;
+  font-size: 16px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.boardTitleArea .title a {
+  text-decoration: none;
+  color: black;
+}
+.boardTitleArea .title a:hover {
+  text-decoration: underline;
+}
+
+.boardTitleArea .more {
+  float: right;
+  padding-top: 2px;
+  font-size: 12px;
+}
+
+.boardTitleArea .more a {
+  text-decoration: none;
+  color: #999;
+}
+
+.boardTitleArea .more a:hover {
+  text-decoration: underline;
+}
+
+.boardTable {
+  width: 100%;
+  table-layout: fixed;
+  border-collapse: collapse;
+  word-wrap: break-word;
+  word-break: break-word;
+}
+
+.boardTable tbody td {
+  border-bottom-color: #f2f2f2;
+  height: 34px;
+  padding: 4px 7px;
+  border-bottom: 1px solid #f2f2f2;
+}
+
+.boardTable .td_article {
+  overflow: hidden;
+  padding-left: 8px;
+  padding-right: 18px;
+  font-size: 13px;
+}
+
+.boardTable .td_article .board_tag {
+  padding-left: 0;
+  padding-right: 8px;
+  display: table-cell;
+  width: 56px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.boardTable .td_article .board_tag .board_tag_txt {
+  border: 1px solid #ffc6c9;
+  background-color: #ffe3e4;
+  color: #ff4e59;
+}
+
+.board_tag_txt {
+  display: block;
+  width: 56px;
+  height: 21px;
+  box-sizing: border-box;
+  border-radius: 3px;
+  font-size: 11px;
+  font-weight: 800;
+  line-height: 19px;
+}
+
+.board_list {
+  display: table-cell;
+  padding-top: 1px;
+}
+
+.inner_list {
+  width: auto;
+}
+
+.board_list .inner_list {
+  display: table;
+}
+
+.board_list .inner_list a {
+  color: black;
+  text-decoration: none;
+}
+.board_list .inner_list a:hover {
+  text-decoration: underline;
+}
+
+.board_notice .board_list .inner_list .article {
+  color: #ff4e59;
+  font-weight: bold;
+}
+.board_list .inner_list .article {
+  display: table-cell;
+
+  line-height: 18px;
+}
+
+.article_append {
+  display: table;
+  margin-left: 3px;
+  color: #ff4e59;
+  font-weight: bold;
+  white-space: nowrap;
+}
+
+.board_list .inner_list .inner {
+  height: 17px;
+  display: block;
+  display: -webkit-box;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  word-break: break-all;
+}
+
+.td_view {
+  text-align: right;
+  color: #666;
+  font-size: 13px;
+}
+
+.type_dot {
+  width: 11px;
+}
+.tcol_c {
+  background-color: #333;
+  vertical-align: middle;
+}
+
+.albumBox {
+  width: 100%;
+  padding-top: 16px;
+  font-size: 0;
+}
+
+.albumBox li {
+  overflow: hidden;
+  display: inline-block;
+  position: relative;
+  width: 130px;
+  min-height: 200px;
+  margin-right: 12px;
+  vertical-align: top;
+  font-size: 13px;
+}
+
+.albumBox li.noContent {
+  background: url("/no_content_album.png") no-repeat;
+  background-size: 100% auto;
+}
+
+.albumBox .photo {
+  width: 130px;
+  height: 130px;
+}
+
+.albumBox .photo a {
+  display: block;
+  position: relative;
+  height: 100%;
+}
+
+.albumBox .photo a img {
+  vertical-align: top;
+  width: 130px;
+  height: 130px;
+}
+
+.albumBox .tit {
+  display: table;
+  padding-top: 8px;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.albumBox .tit a {
+  display: table-cell;
+  vertical-align: top;
+}
+
+.albumBox .tit .inner {
+  display: table;
+  table-layout: fixed;
+}
+
+.albumBox .tit .ellipsis {
+  height: 16px;
+  display: -webkit-box;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: normal;
+  word-wrap: break-word;
+  word-break: break-word;
+}
+
+.commentCnt {
+  color: #ff2f3b;
+  margin-left: 3px;
+}
+
+.albumBox .nickArea {
+  position: relative;
+  padding-top: 6px;
+}
+
+.albumBox .nickArea .nn {
+  display: inline-block;
+  max-width: 110px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.albumBox .dtVcntArea {
+  color: #333;
+  padding-bottom: 10px;
+}
+
+.dtVcnt {
+  color: #999 !important;
+}
+
+.albumBox .dtVcntArea .vCnt {
+  margin-left: 5px;
+}
