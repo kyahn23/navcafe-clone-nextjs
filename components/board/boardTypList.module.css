@@ -1,0 +1,37 @@
+.tdArticle .boardNumber {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.boardNumber .innerNumber {
+  display: inline-block;
+  width: 69px;
+  font-size: 11px;
+  line-height: 13px;
+  text-align: center;
+  word-wrap: break-word;
+  word-break: break-word;
+}
+
+.tdName,
+.tdDate,
+.tdView,
+.tdLikes {
+  text-align: center;
+}
+
+.noData {
+  padding: 100px 0;
+  text-align: center;
+}
+
+.commentCnt {
+  margin-left: 5px;
+  font-size: 13px;
+  font-weight: bold;
+  color: red;
+}
+
+.imgInc {
+  margin-left: 5px;
+}

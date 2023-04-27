@@ -93,7 +93,6 @@ export default async function handler(
       post.commentCnt = commentSnap.docs.length;
 
       ntcList.push(post);
-      console.log(ntcList);
     }
 
     // 전체게시글
@@ -205,7 +204,7 @@ export default async function handler(
     data.qnaList = qnaList;
     data.photoList = photoList;
 
-    res.status(200).json({ data: data });
+    res.status(200).json({ data });
   } catch (error) {
     console.log("asdf");
   }
