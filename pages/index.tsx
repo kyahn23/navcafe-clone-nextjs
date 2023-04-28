@@ -73,10 +73,12 @@ export default function Home(props: Props) {
               <div className={classes.board_list}>
                 <div className={classes.inner_list}>
                   <Link
-                    className={classes.article}
                     href={{ pathname: "/board/detail", query: { id: item.id } }}
+                    legacyBehavior
                   >
-                    <span className={classes.inner}>{item.title}</span>
+                    <a className={classes.article}>
+                      <span className={classes.inner}>{item.title}</span>
+                    </a>
                   </Link>
 
                   <div className={classes.article_append}>
@@ -106,10 +108,15 @@ export default function Home(props: Props) {
             </Link>
           </dt>
           <dd className={classes.tit}>
-            <Link href={{ pathname: "/board/detail", query: { id: item.id } }}>
-              <span className={classes.inner}>
-                <span className={classes.ellipsis}>{item.title}</span>
-              </span>
+            <Link
+              href={{ pathname: "/board/detail", query: { id: item.id } }}
+              legacyBehavior
+            >
+              <a>
+                <span className={classes.inner}>
+                  <span className={classes.ellipsis}>{item.title}</span>
+                </span>
+              </a>
             </Link>
             <span className={classes.commentCnt}>
               {item.commentCnt > 0 ? (
